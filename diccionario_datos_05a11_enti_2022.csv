@@ -1,0 +1,123 @@
+NOMBRE_CAMPO,LONGITUD,TIPO,NEMÓNICO,CATÁLOGO,RANGO_CLAVES                                                              
+Estrato,2,C,est,est,"[10,20,30,40]"
+Estrato de diseño,3,C,est_d,,[001-999]
+Tamaño de localidad,1,C,t_loc,t_loc,[1-4]
+Entidad,2,C,ent,ent,[01-32]
+Control,5,C,con,,[00001-99999]
+Unidad primaria de muestreo,7,C,upm,,[0000001-9999999]
+Número progresivo de la vivienda,4,C,n_pro_viv,,[0001-9999]
+Vivienda seleccionada,2,C,v_sel,v_sel,[00-99]
+Número de hogar,1,C,n_hog,n_hog,[1-9]
+Periodo,3,C,per,per,"Primer dígito 1-4, segundo y tercer dígito año"
+Número de renglón,2,C,n_ren,n_ren,[01-30]
+Sexo,1,C,sex,sex,"[1,2]"
+Edad,2,C,eda,eda,"[05-11,98]"
+Número de renglón del informante,2,C,inf,inf,"[01-30,97,99]"
+"Durante la semana pasada, ¿cuánto tiempo dedicó...a estudiar o hacer tareas escolares",1,C,p1_1,p1_1,"[1,blanco]"
+Horas dedicadas a estudiar o hacer tareas escolares,2,C,p1_h1,p1_h1,"[00-97,98,99]"
+Minutos dedicados a estudiar o hacer tareas escolares,2,C,p1_m1,p1_m1,[00-59]
+"Durante la semana pasada, ¿cuánto tiempo dedicó...a cuidar o atender sin pago, de manera exclusiva a niños, ancianos, enfermos o discapacitados",1,C,p1_2,p1_2,"[2,blanco]"
+"Horas dedicadas a cuidar o atender sin pago, de manera exclusiva a niños, ancianos, enfermos o discapacitados",2,C,p1_h2,p1_h2,"[00-97,98,99]"
+"Minutos dedicados a cuidar o atender sin pago, de manera exclusiva a niños, ancianos, enfermos o discapacitados",2,C,p1_m2,p1_m2,[00-59]
+"Durante la semana pasada, ¿cuánto tiempo dedicó? a ayuda para construir o ampliar su vivienda",1,C,p1_3,p1_3,"[3,blanco]"
+Horas dedicadas a ayudar a construir o ampliar su vivienda,2,C,p1_h3,p1_h3,"[00-97,98,99]"
+Minutos dedicados a ayudar a construir o ampliar su vivienda,2,C,p1_m3,p1_m3,[00-59]
+"Durante la semana pasada, ¿cuánto tiempo dedicó...a ayudar a reparar o dar mantenimiento a su vivienda, muebles o aparatos electrodomésticos o vehículos",1,C,p1_4,p1_4,"[4,blanco]"
+"Horas dedicadas a ayudar a reparar o dar mantenimiento a su vivienda, muebles o aparatos electrodomésticos o vehículos",2,C,p1_h4,p1_h4,"[00-97,98,99]"
+"Minutos dedicados a ayudar a reparar o dar mantenimiento a su vivienda, muebles o aparatos electrodomésticos o vehículos",2,C,p1_m4,p1_m4,[00-59]
+"Durante la semana pasada, ¿cuánto tiempo dedicó...a realizar los quehaceres de su hogar",1,C,p1_5,p1_5,"[5,blanco]"
+Horas dedicadas a los quehaceres de su hogar,2,C,p1_h5,p1_h5,"[00-97,98,99]"
+Minutos dedicados a los quehaceres de su hogar,2,C,p1_m5,p1_m5,[00-59]
+"Durante la semana pasada, ¿cuánto tiempo dedicó...a prestar servicios gratuitos a su comunidad",1,C,p1_6,p1_6,"[6,blanco]"
+Horas dedicadas a prestar servicios gratuitos a su comunidad,2,C,p1_h6,p1_h6,"[00-97,98,99]"
+Minutos dedicados a prestar servicios gratuitos a su comunidad,2,C,p1_m6,p1_m6,[00-59]
+"Independientemente de lo que acaba de decir, ¿durante la semana pasada? dedicó al menos una hora a actividades económicas",1,C,p2,p2,[1-9]
+"Aunque ya me dijo que ? no trabajó la semana pasada, ¿estuvo trabajando",1,C,p3,p3,[1-5]
+¿Regresó(ará) ?a trabajar esta semana? ,1,C,p3a,p3a,"[1,2,9]"
+¿Cuáles son las tareas o funciones principales que ? desempeña en su trabajo?,4,C,p4,,Catálogo SINCO
+¿En su trabajo... tiene un jefe(a) o superior?,1,C,p4a,p4a,"[1,2]"
+"¿En su trabajo... utiliza equipo de protección? (guantes, casco, mascarilla, cinturón o faja, anteojos de seguridad, calzado o ropa especial)",1,C,p5,p5,"[1-3,9]"
+"¿Aproximadamente cuántas personas, incluyendo al dueño, laboran donde trabaja...?",2,C,p6,p6,"[01-11,99]"
+"¿Cuál es el nombre de la empresa, negocio o institución para la que... trabaja o ayuda?",1,C,p7,p7,"[1-3,9]"
+"¿A qué se dedica esta empresa, negocio o institución?",4,C,p7a,,Catálogo SCIAN
+"¿El negocio o actividad cuenta con establecimiento, oficina o local?",1,C,p7b,p7b,"[1,2]"
+Entonces ¿en dónde se realizan las actividades de este negocio?,2,C,p7c,p7c,"[01-11,99]"
+¿A qué edad empezó? a trabajar?,2,C,p8,p8,"[01-11,99]"
+¿La persona para quien trabaja o ayuda... es un familiar?,1,C,p9,p9,"[1-3,9]"
+¿La persona para quien trabaja o ayuda... vive en la misma vivienda?,1,C,p9a,p9a,"[1-2,9]"
+¿La persona para quien trabaja o ayuda... es hombre o mujer,1,C,p9b,p9b,"[1,2]"
+¿La jornada de trabajo de? es,1,C,p10,p10,"[1-4,9]"
+¿Qué días y cuántas horas le dedica habitualmente... a su trabajo?,1,C,p10a,p10a,"[1,2]"
+Horas en lunes,2,C,p10a_h1,p10a_h1,"[00-24,98,99]"
+Minutos en lunes,2,C,p10a_m1,p10a_m1,[00-59]
+Horas en martes,2,C,p10a_h2,p10a_h2,"[00-24,98,99]"
+Minutos en martes,2,C,p10a_m2,p10a_m2,[00-59]
+Horas en miércoles,2,C,p10a_h3,p10a_h3,"[00-24,98,99]"
+Minutos en miércoles,2,C,p10a_m3,p10a_m3,[00-59]
+Horas en jueves,2,C,p10a_h4,p10a_h4,"[00-24,98,99]"
+Minutos en jueves,2,C,p10a_m4,p10a_m4,[00-59]
+Horas en viernes,2,C,p10a_h5,p10a_h5,"[00-24,98,99]"
+Minutos en viernes,2,C,p10a_m5,p10a_m5,[00-59]
+Horas en sábado,2,C,p10a_h6,p10a_h6,"[00-24,98,99]"
+Minutos en sábado,2,C,p10a_m6,p10a_m6,[00-59]
+Horas en domingo,2,C,p10a_h7,p10a_h7,"[00-24,98,99]"
+Minutos en domingo,2,C,p10a_m7,p10a_m7,[00-59]
+Total de horas (horario regular),3,C,p10a_thrs,,"[001-998,999]"
+Total de días (horario irregular),1,C,p10a_tdia,p10a_tdia,[1-7]
+Total de horas (horario irregular),2,C,p10a2_h,p10a2_h,"[00-97,98,99]"
+Total de minutos (horario irregular),2,C,p10a2_m,p10a2_m,[00-59]
+¿... realiza su trabajo todos los meses del año?,1,C,p10b,p10b,"[1-3,9]"
+¿Cuál es el motivo principal por el que... no trabaja todos los meses del año?,1,C,p10c,p10c,"[1-6,9]"
+¿Cada cuándo obtiene... sus ingresos o le pagan?,2,C,p11_1,p11_1,[01-10]
+Cantidad de ingresos por trabajo,5,C,p11_2,,[00001-99999]
+¿... en qué utiliza principalmente lo que gana en su trabajo?,1,C,p11a,p11a,"[1-7,9]"
+De lo que gana... ¿cuánto aporta a su hogar?,1,C,p11b,p11b,[1-4]
+¿Cuál es la razón principal por la que... realiza estas actividades?,1,C,p12,p12,[1-9]
+"¿En la realización de su trabajo... carga cosas pesadas, como",2,C,p13,p13,"[01-10,99]"
+¿Por su trabajo... ha tenido daños físicos,2,C,p13a,p13a,"[01-10,99]"
+"Además de lo anterior, ¿por su trabajo... alguna vez ha manifestado otras consecuencias",1,C,p13b,p13b,"[1-7,9]"
+En su trabajo ... ¿ está expuesto a realizar posturas forzadas o movimientos repetitivos?,2,C,p13c_1,p13c_1,"[01,blanco]"
+En su trabajo ... ¿ está expuesto a fuego o explosivos?,2,C,p13c_2,p13c_2,[02-blanco]
+"En su trabajo ... ¿ está expuesto a ruido excesivo o vibraciones (pulidoras, telares)?",2,C,p13c_3,p13c_3,"[03,blanco]"
+En su trabajo ... ¿ está expuesto a humedad o temperatura extrema?,2,C,p13c_4,p13c_4,"[04,blanco]"
+"En su trabajo ... ¿ está expuesto a herramientas punzocortantes (machetes, hachas) o equipo pesado (sierra, cortadora)?",2,C,p13c_5,p13c_5,"[05,blanco]"
+En su trabajo ... ¿ está expuesto a manejo de vehículos motorizados?,2,C,p13c_6,p13c_6,"[06,blanco]"
+"En su trabajo ... ¿ está expuesto a productos químicos (pesticidas, pegamentos, cera, polvo, humo)?",2,C,p13c_7,p13c_7,"[07,blanco]"
+"En su trabajo ... ¿ está expuesto a rayos x, ultravioleta?",2,C,p13c_8,p13c_8,"[08,blanco]"
+En su trabajo ... ¿ está expuesto a animales peligrosos o plantas venenosas?,2,C,p13c_9,p13c_9,"[09,blanco]"
+En su trabajo ... ¿ está expuesto a residuos o desechos peligrosos?,2,C,p13c_10,p13c_10,"[10,blanco]"
+No está expuesto,2,C,p13c_11,p13c_11,"[11,blanco]"
+No sabe,2,C,p13c_99,p13c_99,"[99,blanco]"
+¿El lugar donde trabaja... es un peligrosos,2,C,p13d,p13d,"[01-09,99]"
+¿Realizando algún trabajo ha llegado a tener a accidentes o lesiones,1,C,p14_1,p14_1,"[1,blanco]"
+¿Realizando algún trabajo ha llegado a tener a enfermedad,1,C,p14_2,p14_2,"[2,blanco]"
+"No ha tenido accidente,  lesión o enfermedad",1,C,p14_3,p14_3,"[3,blanco]"
+"¿Qué tipo de atención requirió debido al accidente, lesión o enfermedad que tuvo ?",1,C,p14a,p14a,"[1-6,9]"
+¿Qué consecuencia habría en el hogar si... deja de trabajar?,1,C,p15,p15,"[1-6,9]"
+¿Qué consecuencia habría para... si deja de trabajar?,2,C,p15a,p15a,"[01-10,99]"
+"Solo para el entrevistador, asistencia escolar (actual)",1,C,p16,p16,"[1,2,9]"
+¿Alguna vez asistió ...a la escuela?,1,C,p16a,p16a,"[1,2]"
+¿Qué edad tenía... cuando dejó de asistir a la escuela?,2,C,p16b,p16b,"[03-11,99]"
+¿... alguna vez interrumpió la escuela por más de seis meses?,1,C,p16c,p16c,"[1,2]"
+¿Cuántas veces... ha interrumpido la escuela por más de seis meses?,1,C,p16d,p16d,"[1-3,9]"
+La última vez que interrumpió la escuela ¿cuánto tiempo tardó ... en regresar?,1,C,p16e,p16e,"[1-6,9]"
+¿Qué nivel y grado estaba cursando ... la última vez que interrumpió la escuela?,1,C,p16f_niv,p16f_niv,[1-4]
+¿Qué nivel y grado estaba cursando ... la última vez que interrumpió la escuela?,1,C,p16f_gra,p16f_gra,[1-9]
+¿? no asiste o interrumpió la escuela por,1,C,p16g,p16g,"[1-7,9]"
+"Entonces, ¿cuál es la razón principal por la que... no asiste o interrumpió la escuela?",2,C,p16h,p16h,[01-10]
+En los últimos tres meses ¿? ha recibido alguna beca para estudiar,1,C,p17_1,p17_1,"[1,blanco]"
+? Beca del Bienestar,1,C,p17_1_1,p17_1_1,"[1,blanco ]"
+? Del programa de educación media superior,1,C,p17_1_2,p17_1_2,"[2,blanco]"
+? De otro programa del gobierno federal ,1,C,p17_1_3,p17_1_3,"[3,blanco]"
+? Institución u organización del gobierno estatal (CDMX) o municipal (alcaldía),1,C,p17_1_4,p17_1_4,"[4,blanco]"
+? De una institución u organización privada,1,C,p17_1_5,p17_1_5,"[2,blanco]"
+En los últimos tres meses ¿? ha recibido otro porgama del gobierno?,1,C,p17_2,p17_2,"[2,blanco]"
+En los últimos tres meses ¿? ha recibido ayuda de un familiar que vive en otro hogar?,1,C,p17_3,p17_3,"[3,blanco]"
+En los últimos tres meses ¿? ha recibido otro tipo de ayuda?,1,C,p17_4,p17_4,"[4,blanco]"
+No ha recibido ayuda,1,C,p17_5,p17_5,"[5,blanco]"
+"Cuidar o atender sin pago a niños, ancianos, enfermos o discapacitados (solo entrevistador)",1,C,p18_1,p18_1,"[1,blanco]"
+Realizar quehaceres de su hogar (solo entrevistador),1,C,p18_2,p18_2,"[2,blanco]"
+No cuida personas ni realiza quehaceres domésticos (solo entrevistador),1,C,p18_3,p18_3,"[3,blanco]"
+Se ha lastimado cargando?,1,C,p18a,p18a,"[1-7,9]"
+Número de unidad primaria de muestreo de distribución,7,C,upm_dis,,[0000001-9999999]
+Ponderador de la población,6,N,fac,,[000001-999999]
